@@ -298,7 +298,7 @@ class MainPage:
         return self
     
     # Lokator Modul PIM & Sub-menunya
-    MENU_PIM = (By.LINK_TEXT, "PIM")
+    MENU_PIM = (By.XPATH, "//span[normalize-space()='PIM']")
     PIM_TAB_CONFIG = (By.CSS_SELECTOR, ".oxd-topbar-body-nav-tab.--parent > .oxd-topbar-body-nav-tab-item")
     SUB_CUSTOM_FIELDS = (By.LINK_TEXT, "Custom Fields")
     SUB_DATA_IMPORT = (By.LINK_TEXT, "Data Import")
